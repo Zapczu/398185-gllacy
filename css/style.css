@@ -4,8 +4,151 @@ body {
     line-height: 22px;
     color: rgb(50, 50, 50);
     font-family: "Roboto";
-    background: rgb(132, 157, 143)
+    background: rgb(21, 156, 173);
 }
+
+
+clearfix::after {
+   display: table;
+   clear: both;
+   content: "";
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+    background: grey;
+}
+
+.logo {
+    float: left;
+    width: 154px;
+}
+
+.main {
+    float:left;
+    width: 384px;
+}
+
+.user-block {
+    float: right;
+    width: 267px;
+}
+
+.content {
+    width:1146px;
+    margin: 0 auto;
+}
+
+.main-promo {
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+
+}
+
+.features-malinka {
+    float: left;
+    width: 560px;
+    background: url("img/BG_malina.jpg");
+}
+
+.features-choco {
+    float: right;
+    width: 560px;
+}
+
+.product-1 {
+    float: left;
+    width: 267px;
+    margin-right: 26px;
+}
+
+.product-2 {
+    float: left;
+    width: 267px;
+    margin-right: 26px;
+}
+
+.product-3 {
+    float: left;
+    width: 267px;
+    margin-right: 26px;
+}
+
+.product-4 {
+    float: right;
+    width: 267px;
+}
+
+.about-products {
+    width: 1146px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.news {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.blog {
+    float: left;
+    width: 560px;
+}
+
+.spam {
+    float: right;
+    width: 560px;
+}
+
+.find-us {
+    width: 1200px;
+}
+
+.contact-us {
+    float: right;
+    width: 302px;
+}
+
+.footer-container {
+    width: 1146px;
+}
+
+.footer-social {
+    width: 267px;
+    float: right;
+}
+
+.footer-navi {
+    width: 560px;
+    float: left;
+}
+
+.footer-copyright {
+    float: right;
+    width: 267px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-promo {
     font-size: 60px;
