@@ -4,11 +4,12 @@ body {
     line-height: 22px;
     color: rgb(50, 50, 50);
     font-family: "Roboto";
-    background: rgb(21, 156, 173);
+    background: #4f9555 url("img/BG.jpg") no-repeat 100% 100%;
+    background-size: 1200px auto;
 }
 
 
-clearfix::after {
+.clearfix::after {
    display: table;
    clear: both;
    content: "";
@@ -17,17 +18,25 @@ clearfix::after {
 .container {
     width: 1146px;
     margin: 0 auto;
-    background: grey;
+}
+
+.header-left {
+    float: left;
+    width: 560px;
+}
+
+.logo, 
+.main {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .logo {
-    float: left;
-    width: 154px;
+    padding-top: 9px;
 }
 
-.main {
-    float:left;
-    width: 384px;
+.main li{
+    display: inline-block;
 }
 
 .user-block {
@@ -44,21 +53,33 @@ clearfix::after {
     width: 670px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 66px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", Tahoma, sans-serif ;
+    margin-bottom: 41px;
+    text-align: center;
 }
 
 .features {
-
+    margin-bottom: 44px;
 }
 
 .features-malinka {
     float: left;
-    width: 560px;
-    background: url("img/BG_malina.jpg");
+    width: 540px;
+    background: #123fd8;
+    min-height: 229px;
+    padding-left: 20px;
 }
 
 .features-choco {
     float: right;
-    width: 560px;
+    width: 540px;
+    padding-left: 20px;  
+    min-height: 229px;
+    background: #994123;
 }
 
 .product-1 {
@@ -87,7 +108,25 @@ clearfix::after {
 .about-products {
     width: 1146px;
     margin: 0 auto;
+}
+
+.about {
     display: inline-block;
+    width: 560px;
+}
+
+.about img,
+.about p{
+    float: left;
+}
+
+.about p{
+    margin-left: 9px;
+}
+
+.left img,
+.about-products h3{
+    margin-left: 20px;
 }
 
 .news {
@@ -120,7 +159,7 @@ clearfix::after {
 
 .footer-social {
     width: 267px;
-    float: right;
+    float: left;
 }
 
 .footer-navi {
@@ -133,35 +172,29 @@ clearfix::after {
     width: 267px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main-promo {
-    font-size: 60px;
-    font-weight: bold;
-    line-height: 66,35px;
-    color: rgb(255, 255, 255);
-    font-family: "Roboto";
-}
-
 .promo-block {
     font-size: 35px;
     font-weight: bold;
     line-height: 41px;
     color: rgb(255, 255, 255);
     font-family: "Roboto";
+}
+
+.products {
+    width: 1146px;
+}
+
+.products > *{
+    width: 267px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 26px 0 0;
+}
+
+.pages {
+    float: right;
+}
+
+.page-link li{
+    display: inline-block;
 }
